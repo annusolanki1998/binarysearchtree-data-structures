@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a9d63a-34e8-4148-9e22-5b4f0bfa48c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

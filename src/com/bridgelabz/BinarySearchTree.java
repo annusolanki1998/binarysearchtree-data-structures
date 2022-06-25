@@ -30,7 +30,7 @@ public class BinarySearchTree {
     public static void main(String[] args) {
         System.out.println("Welcome to binary search tree !");
 
-        int values[] = {56, 70, 30};
+        int values[] = {56, 30, 70, 22, 40, 11, 3, 16, 60, 95, 65, 63, 67};
 
         Node root = null;
         for (int i = 0; i < values.length; i++) {
