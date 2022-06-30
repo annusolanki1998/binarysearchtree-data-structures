@@ -18,6 +18,7 @@ public class BinarySearchTree {
         return root;
     }
 
+    //Inorder(left,root,right):-
     public static void inorder(Node root) {
         if (root == null) {
             return;
@@ -26,6 +27,28 @@ public class BinarySearchTree {
         System.out.print(root.data + " ");
         inorder(root.right);
     }
+
+    //Preorder(root,left,right):-
+    public static void preorder(Node root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        preorder(root.left);
+        preorder(root.right);
+
+    }
+
+    //Postorder(left,right,root):-
+    public static void postorder(Node root) {
+        if (root == null) {
+            return;
+        }
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
+    }
+
 
     //Search in BST
     public static boolean search(Node root, int key) {
@@ -52,7 +75,16 @@ public class BinarySearchTree {
         for (int i = 0; i < values.length; i++) {
             root = insert(root, values[i]);
         }
+        System.out.print("Inorder : ");
         inorder(root);
+        System.out.println();
+
+        System.out.print("Preorder : ");
+        preorder(root);
+        System.out.println();
+
+        System.out.print("Postorder : ");
+        postorder(root);
         System.out.println();
 
         if (search(root, 63)) {

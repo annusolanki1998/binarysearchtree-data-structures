@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/binarysearchtree-data-structures-generics.iml" filepath="$PROJECT_DIR$/binarysearchtree-data-structures-generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarysearchtree-data-structures.iml" filepath="$PROJECT_DIR$/binarysearchtree-data-structures.iml" />
     </modules>
   </component>
 </project>
